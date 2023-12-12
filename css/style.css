@@ -1,0 +1,120 @@
+* {
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+p {
+  margin: 0;
+}
+	h1 {
+    font-size: 46px;
+    color: wheat;
+}
+	
+.logo {
+  background: white;
+  height: 230px;
+  background-image: url("../images/02-hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.LinkWork, .LinkContact{
+	display: inline-table
+}
+.LinkWork{
+background-color: wheat;
+  color:black;
+  padding: 15px;
+  width: 15%;
+}
+.LinkContact{
+background-color: goldenrod;
+  color:black;
+  padding: 15px;
+  width: 15%;
+}
+.LinkWork button,
+.LinkContact button {
+    border: none;
+    background: none;
+    cursor: pointer;
+	font-size: 26px;
+}
+
+.hero-banner{
+    background-color: aqua;
+    align-content: space-between;
+
+}
+#about{
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    text-align: inherit;
+    background-color: aquamarine;
+   	
+}
+#about h2 {
+    font-size: 32px;
+    margin-bottom: 2px;
+    margin-top: 6px;
+}
+#about p {
+    font-size: 18px; 
+    line-height: 1.6; 
+    
+}
+	
+.page-section{
+display: flex;
+flex-wrap: wrap;
+align-content: stretch;
+	
+}
+
+.work1,
+.work2,
+.work3,
+.work4 {
+    width: 49%;
+    padding: 10px;
+}
+
+.linked-image,
+.linked-image2,
+.linked-image3,
+.linked-image4 {
+  
+    width: 100%; 
+    height: auto;
+    border: 1px;
+    border-radius: 5px; 
+object-fit: cover
+}
+
+#contact{
+	
+	background-color:cadetblue;
+	height: 70px;
+	
+}
+
+
